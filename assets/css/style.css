@@ -1,9 +1,16 @@
-.img0{
+.img02{
     position: absolute;
     top: 60px;
     left: 20px;
     font-size: 18px;
     width: 500px; 
+}
+.img0{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 1200px;
+  height: 600px;
 }
 .img1{
     position: absolute;
