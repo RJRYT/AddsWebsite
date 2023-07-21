@@ -1,13 +1,12 @@
 .img0{
     position: absolute;
-    top: 100px;
-    left: 60px;
+    top: 60px;
+    left: 20px;
     font-size: 18px;
     width: 500px; 
 }
 .img1{
     position: absolute;
-    top: 98px;
     bottom: 0px;
     right: 0px;
     font-size: 18px;
