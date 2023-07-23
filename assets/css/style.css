@@ -1,3 +1,8 @@
+body {
+  background-image:linear-gradient(rgb(226, 223, 220),hwb(34 13% 55%));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .img2{
     position: absolute;
     top: 120px;
@@ -23,7 +28,7 @@
 }
 /* lettar box*/
 .bgbox{
-  background-color: lightgrey;
+  background-color: #897661;
   position: absolute;
   width: 3000px;
   height: 200px;
@@ -88,5 +93,5 @@
   opacity: 1;
   right: 0;
 }
-
+/*button end*/
 
