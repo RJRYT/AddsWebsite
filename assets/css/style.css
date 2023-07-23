@@ -1,41 +1,92 @@
-.img02{
+.img2{
     position: absolute;
-    top: 60px;
-    left: 20px;
+    top: 120px;
+    left: 50px;
     font-size: 18px;
-    width: 500px; 
+    width: 600px; 
 }
 .img0{
     position: absolute;
     top: 50px;
     left: 0px;
-    width: 1215px;
-  height: 600px;
+    width: 1150px;
+  height: 400px;
 }
+/* house image */
 .img1{
     position: absolute;
-    top: 121px;
+    top: 194px;
     bottom: 0px;
     right: 0px;
     font-size: 18px;
-    width: 800px; 
+    width: 940px; 
+}
+/* lettar box*/
+.bgbox{
+  background-color: lightgrey;
+  position: absolute;
+  width: 3000px;
+  height: 200px;
+  top:400px;
+  right: 100px;
+  padding: 50px;
+  margin: 0px;
+}
+/* letter text*/
+.bgtext{
+  position: absolute;
+    top: 420px;
+    left: 5px;
+    right: 1200px;
+    font-size: 20px;
+    width: 600px; 
+}
+/*first button*/
+.bcenter{
+  position: absolute;
+  top: 540px;
+  left: 5px;
+  right: 1200px;
+  font-size: 20px;
+  width: 600px;
+}
+.button{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #faf5f3;
+  border: none;
+  color: #030000;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
-@media only screen and (max-width:800px) {
-    /* For tablets: */
-    .img0{
-        position: absolute;
-        top: 50px;
-        left: 0px;
-        width: 1315px;
-      height: 6000px;
-    }
-  }
-  @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .container {
-      width: 1020%;
-    }
-  }
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
