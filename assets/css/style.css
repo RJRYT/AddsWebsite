@@ -255,11 +255,37 @@ body {
   
   .nav-link:hover{
   
-      box-shadow: 0.8px 0px 1px 1px #eabb4c;
+      /* box-shadow: 0.8px 0px 1px 1px #eabb4c; */
       transform: scale(1.1);
-      background: #dcb700f8;
+      /* background: #dcb700f8; */
       
   }
   /* nav anim end */
   
     /* animation end */
+
+    /* section about */
+    .about-container{
+      height: 93vh;
+      width: 211vh;
+      
+    }
+    .about-logo{
+      display: flex;
+       width: 110vh;
+       left: 10px; 
+       padding: 10px;
+    }
+    .about-paragraph-1{
+      display: block;
+
+    }
+    .about-heading{
+      position: relative;
+  right: 100px;
+  font-size: 20px;
+  text-align: start;
+  font-weight: bold;
+  letter-spacing: 1px;
+  top: 10;
+    }
