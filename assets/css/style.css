@@ -294,12 +294,13 @@ body {
     .about-logo{
       display: flex;
        width: 100vh;
-       height: 620px;
+      
        left: 10px; 
       
 
        position: relative;
        left: -3px;
+       
        top: 100px;
     }
 
@@ -312,7 +313,7 @@ body {
       position: relative;
       letter-spacing: 0;
       top: -77%;
-      left: 80px;
+      left: 6.5%;
       font-size: 150px;
       
     }
@@ -353,17 +354,17 @@ body {
       left: 20px;
     }
     .paragraph-align.about-paragraph3{
-      left: 35px;
+      left: 30px;
     }
     .paragraph-align.about-paragraph4{
       left: 43px;
     }
 
     .paragraph-align.about-paragraph5{
-      left: 53px;
+      left: 55px;
     }
     .paragraph-align.about-paragraph6{
-      left: 65px;
+      left: 70px;
     }
     .paragraph-align.about-paragraph7{
       left: 80px;
@@ -381,29 +382,72 @@ body {
     }
 
     .paragraph-align.about-paragraph11{
-      left: 135px;
+      left: 140px;
     }
     .paragraph-align.about-paragraph12{
       left: 155px;
     }
     .paragraph-align.about-paragraph13{
-      left: 165px;
+      left: 170px;
     }
     .paragraph-align.about-paragraph14{
-      left: 180px;
+      left: 185px;
     }
     .paragraph-align.about-paragraph15{
-      left: 195px;
+      left: 200px;
     }
     .paragraph-align.about-paragraph16{
-      left: 210px;
+      left: 217px;
     }
     .paragraph-align.about-paragraph17{
-      left: 230px;
+      left: 229px;
     }
     .paragraph-align.about-paragraph18{
-      left: 240px;
+      left: 245px;
     }
     .paragraph-align.about-paragraph19{
-      left: 255px;
+      left: 265px;
     }
+
+
+    /* footer work */
+    
+  .footer-container{
+    height: 113vh;
+    width: 211vh;
+  }
+  .footer-box{
+    background-color: #897661;
+    position: absolute;
+    width: 3000px;
+    height: 250px;
+   top: 3000px;
+    padding: 50px;
+    margin: 0px;
+  }
+  .footer-logo{
+    display: flex;
+     width: 20vh;
+     color: azure;
+     height: 60px;
+
+    top: 940px;
+     position: relative;
+     left: 163px;
+  }
+  .footer-text-1{
+    display: flex;
+
+     color: azure;
+     height: 60px;
+     font-size: 10px;
+     font-weight: bolder;
+
+     letter-spacing: 1px;
+     color: rgb(255, 255, 255);
+     text-transform: uppercase;
+     text-align: start;
+    top: 980px;
+     position: relative;
+     left: 193px;
+  }
