@@ -100,6 +100,7 @@ body {
 
 .h1-text{
   margin: 0;
+  color: azure;
   padding: 0;
   font-size: 120px;
   
@@ -174,6 +175,7 @@ body {
 /* paragraph */
 .icon-paragraph{
   position: relative;
+  color: azure;
   right: 40px;
   font-size: 20px;
   text-align: start;
@@ -190,6 +192,7 @@ body {
 .icon-paragraph-doc{
   position: relative;
   right: 100px;
+  color: azure;
   font-size: 20px;
   text-align: start;
   font-weight: bold;
@@ -301,6 +304,7 @@ body {
       margin: 0;
       padding: 0;
       display: inline;
+      color: azure;
       position: relative;
       letter-spacing: 0;
       top: -77%;
