@@ -112,8 +112,10 @@ body {
   width: 211vh;
   
 }
+
 /* header align */
 .header-we-align{
+  position: relative; top: 5%;
   display: flex;
   justify-content: center;
   
@@ -122,6 +124,7 @@ body {
 /* header container */
 
 .header-container{
+ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,6 +133,8 @@ body {
   height: 120px;
   background-color: #897661;
   
+  
+  
 }
 
 
@@ -137,6 +142,8 @@ body {
 
 
 .main-container{
+  position: relative;
+  top: 50px;
   display: flex;
   transition: width 2s, height 4s;
 
@@ -265,27 +272,130 @@ body {
     /* animation end */
 
     /* section about */
+
     .about-container{
-      height: 93vh;
+     
+      position: relative;
+      top: 100px;
+      height: 100vh;
+      
       width: 211vh;
+      
       
     }
     .about-logo{
       display: flex;
-       width: 110vh;
+       width: 100vh;
+       height: 620px;
        left: 10px; 
-       padding: 10px;
+      
+
+       position: relative;
+       left: -3px;
+       top: 100px;
     }
-    .about-paragraph-1{
+
+    /* about us heading */
+
+    .about-heading{
+      margin: 0;
+      padding: 0;
+      display: inline;
+      position: relative;
+      letter-spacing: 0;
+      top: -77%;
+      left: 95px;
+      font-size: 150px;
+      
+    }
+    /* heading end */
+
+
+/* paragraph */
+    .paragraph-container{
+      width: 1000px;
+      height: 600px;
       display: block;
+      position: relative;
+      top: -95vh;
+      left: 29%;
+      
+      
+    }
+    .paragraph-align{
+      
+      margin: 0;
+      position: relative;
+      top: 110px;
+      font-size: 14px;
+      font-weight: bolder;
+      
+      letter-spacing: 1px;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      text-align: start;
+      
 
     }
-    .about-heading{
-      position: relative;
-  right: 100px;
-  font-size: 20px;
-  text-align: start;
-  font-weight: bold;
-  letter-spacing: 1px;
-  top: 10;
+    .paragraph-align.about-paragraph1{
+      
+      left: 10px;
+    }
+    .paragraph-align.about-paragraph2{
+      left: 20px;
+    }
+    .paragraph-align.about-paragraph3{
+      left: 35px;
+    }
+    .paragraph-align.about-paragraph4{
+      left: 43px;
+    }
+
+    .paragraph-align.about-paragraph5{
+      left: 53px;
+    }
+    .paragraph-align.about-paragraph6{
+      left: 65px;
+    }
+    .paragraph-align.about-paragraph7{
+      left: 80px;
+    }
+
+
+    .paragraph-align.about-paragraph8{
+      left: 95px;
+    }
+    .paragraph-align.about-paragraph9{
+      left: 110px;
+    }
+    .paragraph-align.about-paragraph10{
+      left: 125px;
+    }
+
+    .paragraph-align.about-paragraph11{
+      left: 135px;
+    }
+    .paragraph-align.about-paragraph12{
+      left: 155px;
+    }
+    .paragraph-align.about-paragraph13{
+      left: 165px;
+    }
+    .paragraph-align.about-paragraph14{
+      left: 180px;
+    }
+    .paragraph-align.about-paragraph15{
+      left: 195px;
+    }
+    .paragraph-align.about-paragraph16{
+      left: 210px;
+    }
+    .paragraph-align.about-paragraph17{
+      left: 230px;
+    }
+    .paragraph-align.about-paragraph18{
+      left: 240px;
+    }
+    .paragraph-align.about-paragraph19{
+      left: 255px;
     }
