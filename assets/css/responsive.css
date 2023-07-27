@@ -1,0 +1,138 @@
+body {
+    background-image: linear-gradient(rgb(226, 223, 220), hwb(34 13% 55%));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Landing page*/
+.logo1 {
+    width: 700px;
+    padding-top: 35px;
+}
+
+.home1 {
+    display: inline;
+    width: 870px;
+    padding-right: 0;
+    margin-right: 0;
+    margin-top: -295px;
+    float: right !important;
+    display: block !important;
+}
+
+.intro {
+    width: 40%;
+    background-color: #897661 !important;
+    color: white;
+}
+
+.intro p {
+    line-height: 1.2;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo1 {
+        width: 100%;
+    }
+    .home1 {
+        width: 90%;
+        margin-top: 0px;
+        float: none !important;
+        display: none !important;
+    }
+
+    .intro {
+        width: 100%;
+        background-color: transparent !important;
+    }
+
+    .intro p {
+        line-height: 1.5;
+        letter-spacing: 4px;
+        font-size: large;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logo1 {
+        width: 80%;
+        margin-left: 55px;
+    }
+
+    .home1 {
+        width: 90%;
+        margin-top: 0px;
+        float: none !important;
+        display: none !important;
+    }
+
+    .intro {
+        width: 100%;
+        background-color: transparent !important;
+    }
+
+    .intro p {
+        line-height: 1.5;
+        letter-spacing: 4px;
+        font-size: large;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logo1 {
+        width: 530px;
+    }
+
+    .home1 {
+        width: 697px;
+        margin-top: -278px;
+        float: right !important;
+        display: block !important;
+    }
+
+    .intro {
+        width: 35%;
+        background-color: #897661 !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .logo1 {
+        width: 600px;
+    }
+
+    .home1 {
+        width: 735px;
+        margin-top: -278px;
+        float: right !important;
+        display: block !important;
+    }
+
+    .intro {
+        width: 40%;
+        background-color: #897661 !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .logo1 {
+        width: 700px;
+    }
+
+    .home1 {
+        width: 870px;
+        margin-top: -295px;
+        float: right !important;
+        display: block !important;
+    }
+
+    .intro {
+        width: 40%;
+        background-color: #897661 !important;
+    }
+}
