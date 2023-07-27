@@ -30,11 +30,70 @@ body {
     line-height: 1.2;
 }
 
+/*We excel in*/
+
+.we-excel {
+    width: 100%;
+    background-color: #897661;
+    color: white;
+    font-size: 100px;
+}
+
+.we-excel-list {
+    display: inline-flex;
+    background-color: #897661;
+    padding: 15px;
+    margin: 8px;
+}
+
+.we-excel-list img {
+    width: 120px;
+}
+
+.we-excel-list p {
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding-top: 25px;
+}
+
+/*about us*/
+.aboutus {
+    display: inline;
+}
+
+.aboutus img {
+    width: 600px;
+}
+
+.img {
+    float: left;
+    shape-outside: polygon(0 0, 45% 0, 100% 100%, 0 100%);
+    margin-right: 2rem;
+}
+
+.aboutus h1 {
+    color: white;
+    text-align: center;
+}
+
+.aboutus p {
+    padding-top: 20px;
+    color: white;
+    font-weight: bolder;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: larger;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .logo1 {
         width: 100%;
     }
+
     .home1 {
         width: 90%;
         margin-top: 0px;
@@ -51,6 +110,21 @@ body {
         line-height: 1.5;
         letter-spacing: 4px;
         font-size: large;
+    }
+
+    .we-excel {
+        font-size: 60px;
+    }
+
+    .aboutus img {
+        width: 240px;
+    }
+
+    .aboutus p {
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        font-size: 10.5px;
+        line-height: 1.4;
     }
 }
 
@@ -78,6 +152,21 @@ body {
         letter-spacing: 4px;
         font-size: large;
     }
+
+    .we-excel {
+        font-size: 70px;
+    }
+
+    .aboutus img {
+        width: 460px;
+    }
+
+    .aboutus p {
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        font-size: 13.5px;
+        line-height: 1.4;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -97,6 +186,21 @@ body {
         width: 35%;
         background-color: #897661 !important;
     }
+
+    .we-excel {
+        font-size: 80px;
+    }
+
+    .aboutus img {
+        width: 550px;
+    }
+
+    .aboutus p {
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        font-size: 17px;
+        line-height: 1.4;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -107,7 +211,7 @@ body {
 
     .home1 {
         width: 735px;
-        margin-top: -278px;
+        margin-top: -300px;
         float: right !important;
         display: block !important;
     }
@@ -115,6 +219,21 @@ body {
     .intro {
         width: 40%;
         background-color: #897661 !important;
+    }
+
+    .we-excel {
+        font-size: 100px;
+    }
+
+    .aboutus img {
+        width: 580px;
+    }
+
+    .aboutus p {
+        font-weight: bolder;
+        letter-spacing: 1.5px;
+        font-size: larger;
+        line-height: 1.7;
     }
 }
 
@@ -125,14 +244,29 @@ body {
     }
 
     .home1 {
-        width: 870px;
+        width: 890px;
         margin-top: -295px;
         float: right !important;
         display: block !important;
     }
 
     .intro {
-        width: 40%;
+        width: 45%;
         background-color: #897661 !important;
+    }
+
+    .we-excel {
+        font-size: 110px;
+    }
+
+    .aboutus img {
+        width: 600px;
+    }
+
+    .aboutus p {
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-size: larger;
+        line-height: 2;
     }
 }
