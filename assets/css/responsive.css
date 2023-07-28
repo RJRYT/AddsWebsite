@@ -30,6 +30,16 @@ body {
     line-height: 1.2;
 }
 
+.shade{
+    width: 100%;
+    margin-top: -90px;
+    padding-bottom: 177px;
+    position: relative;
+    z-index: 1;
+    background-image: linear-gradient(transparent,hwb(34 31% 36%), transparent);
+    display: none;
+}
+
 /*We excel in*/
 
 .we-excel {
@@ -166,6 +176,43 @@ body {
     margin-bottom: 30px;
 }
 
+/*Footer*/
+footer{
+    background-color: #866c52;
+    padding-top: 30px;
+}
+footer .section-1 .logo{
+    width: 150px;
+}
+footer .section-1 .text{
+    padding-top: 40px;
+    letter-spacing: 4px;
+}
+footer .section-1 .social-media{
+    display: inline-flex;
+}
+footer .section-1 .social-media a{
+    background-color: #fcfcfb;
+    width: 35px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 9px;
+}
+footer .section-2 a{
+    text-decoration: none;
+}
+footer .section-2 a:hover{
+    font-weight: bold;
+}
+footer .section-2 p{
+    margin: 0%;
+    line-height: 1.5;
+}
+footer .section-3 p{
+    margin: 0%;
+    line-height: 1.5;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
