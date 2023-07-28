@@ -270,3 +270,53 @@ body {
         line-height: 2;
     }
 }
+
+/*Animation*/
+.fadeInUp {
+    visibility:visible !important;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: fadeInUpFast;
+}
+
+.fadeInUp-s {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+
+.fadeInUp-m {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+
+.fadeInUp-x {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 20%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUpFast {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
