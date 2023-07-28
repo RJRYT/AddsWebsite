@@ -88,6 +88,85 @@ body {
     text-transform: uppercase;
 }
 
+/*Contact*/
+.contact-list{
+    display: flexbox;
+    background-color: #897661;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    border: 0.1px solid transparent;
+    border-radius: 50rem;
+    text-transform: uppercase;
+}
+.contact-list:nth-child(1){
+    margin-right: 25px;
+}
+.contact-list:nth-child(2){
+    margin-left: 25px;
+}
+.contact-list img{
+    border: 0.1px solid transparent;
+    border-radius: 50%;
+    margin: 5px;
+    width: 90%;
+    height: 90%;
+}
+.contact-list .col{
+    padding: 0% !important;
+    text-align: center;
+}
+.contact-list .right{
+    display: inline;
+    text-align: start;
+    vertical-align: middle;
+    margin-top: 35px;
+}
+.contact-list p{
+    color: white;
+    text-transform: inherit;
+    padding: 0%;
+    margin: 0%;
+}
+.contact-list h5{
+    color: white;
+    text-transform: inherit;
+    padding: 0%;
+    margin: 0%;
+}
+.contact-list button{
+    background-color: white;
+    color: #897661;
+    border-radius: 50rem !important;
+    text-transform: inherit;
+}
+
+/*Projects*/
+.owl-projects{
+    text-align: center;
+    vertical-align: middle;
+}
+.owl-projects img{
+    width: 500px;
+    height: 500px;
+}
+.owl-projects img:hover{
+    transform: skewX(1deg);
+    transition-duration: 1s;
+}
+.projects h4{
+    font-weight: bold;
+    font-size: 40px;
+}
+.projects p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .logo1 {
@@ -274,7 +353,7 @@ body {
 /*Animation*/
 .fadeInUp {
     visibility:visible !important;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: both;
     animation-name: fadeInUpFast;
 }
@@ -313,6 +392,10 @@ body {
     0% {
         opacity: 0;
         transform: translate3d(0, 100%, 0);
+    }
+
+    50%{
+        opacity: 0;
     }
 
     100% {
