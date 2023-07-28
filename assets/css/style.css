@@ -453,7 +453,9 @@ body {
     animation-name: zoomIn;
     animation-duration: 2000s;
     animation-delay: 0.1s;
+    
 }
+
 
 /* anim */
 
@@ -503,6 +505,7 @@ h4 {
     font-weight: bold;
     color: #ede1c9;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .q-paragraph::before {
@@ -513,6 +516,15 @@ h4 {
     top: 1.5px;
 }
 
+
+.quick-footer-link{
+    text-decoration: none;
+
+}
+.quick-footer-link:hover{
+    opacity: 0.8;
+}
+
 /* our office */
 .o-office{
     position: relative;
@@ -521,6 +533,7 @@ h4 {
     text-align: start;
     bottom: 338px;
     left: 1080px;
+   
 }
 .o-heading{
     color: #d6b998;
@@ -529,6 +542,7 @@ h4 {
     font-size: 30px;
     position: relative;
     left: -65px;
+   bottom: 5px;
 }
 .footer-loc-logo{
     position: relative;
@@ -608,7 +622,7 @@ h4 {
 .adds-copyright{
     margin: 0;
     position:absolute;
-    top: 215px;
+    top: 220px;
     left: 450px;
     font-size: 10px;
     font-weight: bolder;
@@ -644,3 +658,95 @@ h4 {
 
 /* click to chat */
 
+/* profile */
+.profile-align{
+    display: flex; 
+    position: relative;
+    top: 400px;
+   
+}
+.profile-box1{
+    height: 150px;
+    width: 31%;
+    position: relative;
+    left: 200px;
+    border-radius: 100px;
+    border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  background-color: rgb(126, 100, 75);
+    
+}
+.profile-box2{
+    height: 150px;
+    width: 31%;
+    position: relative;
+   left: 350px;
+   border-radius: 100px;
+   border-width: 1px;
+   border-color: rgb(0, 0, 0);
+   border-style: solid;
+   background-color: rgb(126, 100, 75);
+    
+}
+.profile-person1{
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    
+    right: 155px;
+    
+    top: 10px;
+}
+.profile-heading1{
+    position: relative;
+    
+    color: rgb(255, 233, 209);
+    font-weight: bold;
+    bottom: 110px;
+    font-size: 30px;
+    
+    left: 55px;
+    letter-spacing: 5px;
+}
+.profile-paragraph1{
+    
+    position: relative;
+    color: rgb(255, 233, 209);
+    font-weight: bold;
+    bottom: 135px;
+    font-size: 25px;
+    left: 57px;
+    letter-spacing: 9px;
+}
+
+/* button */
+.profile-button{
+    position: relative;
+    width: 225px;
+    padding: 5px;
+    padding-right: 20px;
+    bottom: 155px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    left: 55px;
+    
+
+    color: rgb(83, 70, 58);
+ 
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgb(211, 200, 188);
+    
+}
+.profile-watsapp{
+    width: 40px;
+    position: relative;
+
+    right: 2px;
+}
+
+/* profile end */
