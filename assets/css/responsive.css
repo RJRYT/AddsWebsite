@@ -30,13 +30,38 @@ body {
     line-height: 1.2;
 }
 
-.shade{
+.call-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.call-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.call-btn:hover span {
+    padding-right: 25px;
+}
+
+.call-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.shade {
     width: 100%;
     margin-top: -90px;
     padding-bottom: 177px;
     position: relative;
     z-index: 1;
-    background-image: linear-gradient(transparent,hwb(34 31% 36%), transparent);
+    background-image: linear-gradient(transparent, hwb(34 31% 36%), transparent);
     display: none;
 }
 
@@ -99,7 +124,7 @@ body {
 }
 
 /*Contact*/
-.contact-list{
+.contact-list {
     display: flexbox;
     background-color: #897661;
     margin-left: 50px;
@@ -111,42 +136,50 @@ body {
     border-radius: 50rem;
     text-transform: uppercase;
 }
-.contact-list:nth-child(1){
+
+.contact-list:nth-child(1) {
     margin-right: 25px;
 }
-.contact-list:nth-child(2){
+
+.contact-list:nth-child(2) {
     margin-left: 25px;
 }
-.contact-list img{
+
+.contact-list img {
     border: 0.1px solid transparent;
     border-radius: 50%;
     margin: 5px;
     width: 90%;
     height: 90%;
 }
-.contact-list .col{
+
+.contact-list .col {
     padding: 0% !important;
     text-align: center;
 }
-.contact-list .right{
+
+.contact-list .right {
     display: inline;
     text-align: start;
     vertical-align: middle;
     margin-top: 35px;
 }
-.contact-list p{
+
+.contact-list p {
     color: white;
     text-transform: inherit;
     padding: 0%;
     margin: 0%;
 }
-.contact-list h5{
+
+.contact-list h5 {
     color: white;
     text-transform: inherit;
     padding: 0%;
     margin: 0%;
 }
-.contact-list button{
+
+.contact-list button {
     background-color: white;
     color: #897661;
     border-radius: 50rem !important;
@@ -154,44 +187,52 @@ body {
 }
 
 /*Projects*/
-.owl-projects{
+.owl-projects {
     text-align: center;
     vertical-align: middle;
 }
-.owl-projects img{
+
+.owl-projects img {
     width: 500px;
     height: 500px;
 }
-.owl-projects img:hover{
+
+.owl-projects img:hover {
     transform: skewX(1deg);
     transition-duration: 1s;
 }
-.projects h4{
+
+.projects h4 {
     font-weight: bold;
     font-size: 40px;
 }
-.projects p{
+
+.projects p {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 30px;
 }
 
 /*Footer*/
-footer{
+footer {
     background-color: #866c52;
     padding-top: 30px;
 }
-footer .section-1 .logo{
+
+footer .section-1 .logo {
     width: 150px;
 }
-footer .section-1 .text{
+
+footer .section-1 .text {
     padding-top: 40px;
     letter-spacing: 4px;
 }
-footer .section-1 .social-media{
+
+footer .section-1 .social-media {
     display: inline-flex;
 }
-footer .section-1 .social-media a{
+
+footer .section-1 .social-media a {
     background-color: #fcfcfb;
     width: 35px;
     height: 30px;
@@ -199,17 +240,21 @@ footer .section-1 .social-media a{
     margin: 5px;
     border-radius: 9px;
 }
-footer .section-2 a{
+
+footer .section-2 a {
     text-decoration: none;
 }
-footer .section-2 a:hover{
+
+footer .section-2 a:hover {
     font-weight: bold;
 }
-footer .section-2 p{
+
+footer .section-2 p {
     margin: 0%;
     line-height: 1.5;
 }
-footer .section-3 p{
+
+footer .section-3 p {
     margin: 0%;
     line-height: 1.5;
 }
@@ -399,7 +444,7 @@ footer .section-3 p{
 
 /*Animation*/
 .fadeInUp {
-    visibility:visible !important;
+    visibility: visible !important;
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-name: fadeInUpFast;
@@ -441,7 +486,7 @@ footer .section-3 p{
         transform: translate3d(0, 100%, 0);
     }
 
-    50%{
+    50% {
         opacity: 0;
     }
 
