@@ -12,7 +12,7 @@ body {
 
 .home1 {
     display: inline;
-    width: 870px;
+    width: 73%;
     padding-right: 0;
     margin-right: 0;
     margin-top: -295px;
@@ -347,7 +347,7 @@ footer .section-3 p {
     }
 
     .home1 {
-        width: 697px;
+        width: 74%;
         margin-top: -278px;
         float: right !important;
         display: block !important;
@@ -381,7 +381,7 @@ footer .section-3 p {
     }
 
     .home1 {
-        width: 735px;
+        width: 74%;
         margin-top: -300px;
         float: right !important;
         display: block !important;
@@ -415,7 +415,7 @@ footer .section-3 p {
     }
 
     .home1 {
-        width: 890px;
+        width: 74%;
         margin-top: -295px;
         float: right !important;
         display: block !important;
