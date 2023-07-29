@@ -120,7 +120,7 @@ body {
     padding-top: 20px;
     color: white;
     font-weight: bolder;
-    text-align: justify;
+    text-align:start;
     letter-spacing: 2px;
     font-size: larger;
     line-height: 2;

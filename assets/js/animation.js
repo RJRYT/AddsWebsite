@@ -69,18 +69,18 @@ jQuery(document).ready(function ($) {
 			responsive: {
 				0: {
 					items: 1,
-					margin: 0
+					margin: 2
 				},
 				460: {
-					items: 1,
-					margin: 0
+					items: 2,
+					margin: 5
 				},
 				576: {
-					items: 1,
+					items: 3,
 					margin: 10
 				},
 				992: {
-					items: 1,
+					items: 3,
 					margin: 10
 				}
 			}
