@@ -6,13 +6,14 @@ body {
 
 /*Landing page*/
 .logo1 {
-    width: 700px;
-    padding-top: 35px;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 35px;
 }
 
 .home1 {
     display: inline;
-    width: 73%;
+    width: 70%;
     padding-right: 0;
     margin-right: 0;
     margin-top: -295px;
@@ -343,11 +344,11 @@ footer .section-3 p {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .logo1 {
-        width: 530px;
+        width: 60%;
     }
 
     .home1 {
-        width: 74%;
+        width: 70%;
         margin-top: -278px;
         float: right !important;
         display: block !important;
@@ -377,11 +378,11 @@ footer .section-3 p {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .logo1 {
-        width: 600px;
+        width: 60%;
     }
 
     .home1 {
-        width: 74%;
+        width: 70%;
         margin-top: -300px;
         float: right !important;
         display: block !important;
@@ -411,11 +412,11 @@ footer .section-3 p {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .logo1 {
-        width: 700px;
+        width: 60%;
     }
 
     .home1 {
-        width: 74%;
+        width: 70%;
         margin-top: -295px;
         float: right !important;
         display: block !important;
