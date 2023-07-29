@@ -362,7 +362,7 @@ footer .section-3 p {
 
     .home1 {
         width: 70%;
-        margin-top: -315px;
+        margin-top: -345px;
         float: right !important;
         display: block !important;
     }
@@ -400,7 +400,7 @@ footer .section-3 p {
 
     .home1 {
         width: 70%;
-        margin-top: -325px;
+        margin-top: -360px;
         float: right !important;
         display: block !important;
     }
@@ -438,7 +438,7 @@ footer .section-3 p {
 
     .home1 {
         width: 70%;
-        margin-top: -375px;
+        margin-top: -385px;
         float: right !important;
         display: block !important;
     }
@@ -449,7 +449,7 @@ footer .section-3 p {
     }
 
     .intro p, .intro button {
-        margin-right: 14rem;
+        margin-right: 12rem;
     }
 
     .we-excel {
@@ -463,8 +463,9 @@ footer .section-3 p {
     .aboutus p {
         font-weight: bolder;
         letter-spacing: 2px;
-        font-size: larger;
+        font-size: large;
         line-height: 2;
+        margin-right: 10rem;
     }
 }
 
