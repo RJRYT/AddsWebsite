@@ -362,13 +362,13 @@ footer .section-3 p {
 
     .home1 {
         width: 70%;
-        margin-top: -278px;
+        margin-top: -315px;
         float: right !important;
         display: block !important;
     }
 
     .intro {
-        width: 35%;
+        width: 40%;
         background-color: #897661 !important;
     }
 
@@ -400,7 +400,7 @@ footer .section-3 p {
 
     .home1 {
         width: 70%;
-        margin-top: -300px;
+        margin-top: -325px;
         float: right !important;
         display: block !important;
     }
@@ -433,12 +433,12 @@ footer .section-3 p {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .logo1 {
-        width: 60%;
+        width: 50%;
     }
 
     .home1 {
         width: 70%;
-        margin-top: -475px;
+        margin-top: -375px;
         float: right !important;
         display: block !important;
     }
