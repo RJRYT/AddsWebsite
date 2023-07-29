@@ -29,8 +29,11 @@ body {
 
 .intro p {
     line-height: 1.2;
+    margin-right: 14rem;
 }
-
+.intro button{
+    margin-right: 14rem;
+}
 .call-btn span {
     cursor: pointer;
     display: inline-block;
@@ -282,6 +285,11 @@ footer .section-3 p {
         line-height: 1.5;
         letter-spacing: 4px;
         font-size: large;
+        margin-right: 7rem;
+    }
+
+    .intro button{
+        margin-right: 7rem;
     }
 
     .we-excel {
@@ -292,7 +300,7 @@ footer .section-3 p {
         width: 240px;
     }
 
-    .aboutus p {
+    .aboutus p{
         font-weight: bold;
         letter-spacing: 1.2px;
         font-size: 10.5px;
@@ -323,6 +331,11 @@ footer .section-3 p {
         line-height: 1.5;
         letter-spacing: 4px;
         font-size: large;
+        margin-right: 7rem;
+    }
+
+    .intro button{
+        margin-right: 7rem;
     }
 
     .we-excel {
@@ -359,6 +372,10 @@ footer .section-3 p {
         background-color: #897661 !important;
     }
 
+    .intro p, .intro button {
+        margin-right: 3rem;
+    }
+
     .we-excel {
         font-size: 80px;
     }
@@ -393,6 +410,10 @@ footer .section-3 p {
         background-color: #897661 !important;
     }
 
+    .intro p, .intro button {
+        margin-right: 7rem;
+    }
+
     .we-excel {
         font-size: 100px;
     }
@@ -417,7 +438,7 @@ footer .section-3 p {
 
     .home1 {
         width: 70%;
-        margin-top: -295px;
+        margin-top: -475px;
         float: right !important;
         display: block !important;
     }
@@ -425,6 +446,10 @@ footer .section-3 p {
     .intro {
         width: 45%;
         background-color: #897661 !important;
+    }
+
+    .intro p, .intro button {
+        margin-right: 14rem;
     }
 
     .we-excel {
