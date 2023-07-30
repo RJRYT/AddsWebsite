@@ -65,7 +65,7 @@ body {
     padding-bottom: 177px;
     position: relative;
     z-index: 1;
-    background-image: linear-gradient(transparent, hwb(34 31% 36%), transparent);
+    background-image: linear-gradient(transparent, hwb(34 37% 34%), transparent);
     display: none;
 }
 
@@ -131,14 +131,24 @@ body {
 .contact-list {
     display: flexbox;
     background-color: #897661;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 10px;
     border: 0.1px solid transparent;
     border-radius: 50rem;
     text-transform: uppercase;
+    flex: 1 0 0%;
+    width: 100%;
+}
+
+.align-text-center{
+    display: flex;
+}
+
+.contact-list .row {
+    padding: 0.2rem;
 }
 
 .contact-list:nth-child(1) {
@@ -153,20 +163,20 @@ body {
     border: 0.1px solid transparent;
     border-radius: 50%;
     margin: 5px;
-    width: 90%;
-    height: 90%;
+    width: 100px;
+    height: 100px;
 }
 
 .contact-list .col {
     padding: 0% !important;
-    text-align: center;
+    text-align: start;
 }
 
 .contact-list .right {
     display: inline;
     text-align: start;
     vertical-align: middle;
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 .contact-list p {
@@ -174,6 +184,8 @@ body {
     text-transform: inherit;
     padding: 0%;
     margin: 0%;
+    line-height: 0.5;
+    letter-spacing: 7px;
 }
 
 .contact-list h5 {
@@ -188,6 +200,7 @@ body {
     color: #897661;
     border-radius: 50rem !important;
     text-transform: inherit;
+    margin-top: 15px;
 }
 
 /*Projects*/
@@ -223,8 +236,12 @@ footer {
     padding-top: 30px;
 }
 
+footer .section-1 {
+    padding-left: 5rem;
+}
+
 footer .section-1 .logo {
-    width: 150px;
+    width: 55%;
 }
 
 footer .section-1 .text {
@@ -284,12 +301,12 @@ footer .section-3 p {
     .intro p {
         line-height: 1.5;
         letter-spacing: 4px;
-        font-size: large;
-        margin-right: 7rem;
+        font-size: larger;
+        margin-right: 2rem;
     }
 
     .intro button{
-        margin-right: 7rem;
+        margin-right: 2rem;
     }
 
     .we-excel {
@@ -305,6 +322,50 @@ footer .section-3 p {
         letter-spacing: 1.2px;
         font-size: 10.5px;
         line-height: 1.4;
+    }
+
+    .align-text-center{
+        display: grid;
+        justify-items: center;
+    }
+
+    .contact-list {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 80%;
+        flex: none;
+    }
+
+    .contact-list:nth-child(1) {
+        margin-bottom: 10px;
+        margin-right: 1%;
+    }
+    
+    .contact-list:nth-child(2) {
+        margin-top: 10px;
+        margin-left: 1%;
+    }
+
+    .contact-list img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .contact-list h5{
+        font-size: 32px;
+    }
+
+    .contact-list p{
+        font-size: 25px;
+    }
+
+    .contact-list button{
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    footer .section-1, .section-2, .section-3 {
+        padding-left: 1rem;
     }
 }
 
@@ -330,12 +391,12 @@ footer .section-3 p {
     .intro p {
         line-height: 1.5;
         letter-spacing: 4px;
-        font-size: large;
-        margin-right: 7rem;
+        font-size: larger;
+        margin-right: 0rem;
     }
 
     .intro button{
-        margin-right: 7rem;
+        margin-right: 0rem;
     }
 
     .we-excel {
@@ -351,6 +412,50 @@ footer .section-3 p {
         letter-spacing: 1.2px;
         font-size: 13.5px;
         line-height: 1.4;
+    }
+
+    .align-text-center{
+        display: grid;
+        justify-items: center;
+    }
+
+    .contact-list {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 80%;
+        flex: none;
+    }
+
+    .contact-list:nth-child(1) {
+        margin-bottom: 10px;
+        margin-right: 1%;
+    }
+    
+    .contact-list:nth-child(2) {
+        margin-top: 10px;
+        margin-left: 1%;
+    }
+
+    .contact-list img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .contact-list h5{
+        font-size: 35px;
+    }
+
+    .contact-list p{
+        font-size: 27px;
+    }
+
+    .contact-list button{
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    footer .section-1, .section-2, .section-3 {
+        padding-left: 2rem;
     }
 }
 
@@ -390,6 +495,39 @@ footer .section-3 p {
         font-size: 17px;
         line-height: 1.4;
     }
+
+    .contact-list {
+        margin-left: 5%;
+        margin-right: 5%;
+        flex: 1 0 0%;
+        width: 100%;
+    }
+
+    .align-text-center{
+        display: flex;
+    }
+
+    .contact-list img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .contact-list h5{
+        font-size: 24px;
+    }
+
+    .contact-list p{
+        font-size: 18px;
+    }
+
+    .contact-list button{
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    footer .section-1, .section-2, .section-3 {
+        padding-left: 3rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -428,6 +566,39 @@ footer .section-3 p {
         font-size: larger;
         line-height: 1.7;
     }
+
+    .contact-list {
+        margin-left: 6%;
+        margin-right: 6%;
+        flex: 1 0 0%;
+        width: 100%;
+    }
+
+    .align-text-center{
+        display: flex;
+    }
+
+    .contact-list img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .contact-list h5{
+        font-size: 30px;
+    }
+
+    .contact-list p{
+        font-size: 25px;
+    }
+
+    .contact-list button{
+        padding: 9px;
+        font-size: 15px;
+    }
+
+    footer .section-1, .section-2, .section-3 {
+        padding-left: 4rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -464,8 +635,41 @@ footer .section-3 p {
         font-weight: bolder;
         letter-spacing: 2px;
         font-size: large;
-        line-height: 2;
-        margin-right: 10rem;
+        line-height: 1.5;
+        margin-right: 20%;
+    }
+
+    .contact-list {
+        margin-left: 25%;
+        margin-right: 25%;
+        flex: 1 0 0%;
+        width: 100%;
+    }
+
+    .align-text-center{
+        display: flex;
+    }
+
+    .contact-list img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .contact-list h5{
+        font-size: 40px;
+    }
+
+    .contact-list p{
+        font-size: 35px;
+    }
+
+    .contact-list button{
+        padding: 10px;
+        font-size: 23px;
+    }
+
+    footer .section-1, .section-2, .section-3 {
+        padding-left: 5rem;
     }
 }
 
