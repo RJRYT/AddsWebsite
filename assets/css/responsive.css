@@ -347,21 +347,21 @@ footer .section-3 p {
     }
 
     .contact-list img{
-        width: 140px;
-        height: 140px;
+        width: 90px;
+        height: 90px;
     }
 
     .contact-list h5{
-        font-size: 32px;
+        font-size: 23px;
     }
 
     .contact-list p{
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .contact-list button{
-        padding: 8px;
-        font-size: 18px;
+        padding: 5px;
+        font-size: 10px;
     }
 
     footer .section-1, .section-2, .section-3 {
