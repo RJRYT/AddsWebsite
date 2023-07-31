@@ -4,6 +4,10 @@ body {
     background-attachment: fixed;
 }
 
+header{
+    font-size: 115%;
+}
+
 /*Landing page*/
 .logo1 {
     width: 60%;
@@ -94,6 +98,7 @@ body {
     color: white;
     margin: 0;
     padding-top: 25px;
+    font-size: 170%;
 }
 
 /*about us*/
@@ -114,6 +119,7 @@ body {
 .aboutus h1 {
     color: white;
     text-align: center;
+    font-size: 350%;
 }
 
 .aboutus p {
@@ -173,10 +179,12 @@ body {
 }
 
 .contact-list .right {
-    display: inline;
-    text-align: start;
+    display: grid;
+    justify-items: center;
     vertical-align: middle;
-    margin-top: 15px;
+    align-content: center;
+    justify-content: start;
+
 }
 
 .contact-list p {
@@ -221,12 +229,12 @@ body {
 
 .projects h4 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 350%;
 }
 
 .projects p {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 200%;
     margin-bottom: 30px;
 }
 
@@ -282,6 +290,9 @@ footer .section-3 p {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    section{
+        padding: 40px 0;
+    }
     .logo1 {
         width: 100%;
     }
@@ -347,21 +358,21 @@ footer .section-3 p {
     }
 
     .contact-list img{
-        width: 90px;
-        height: 90px;
+        width: 70%;
+        height: 90%;
     }
 
     .contact-list h5{
-        font-size: 23px;
+        font-size: 155%;
     }
 
     .contact-list p{
-        font-size: 15px;
+        font-size: 100%;
     }
 
     .contact-list button{
-        padding: 5px;
-        font-size: 10px;
+        padding: 3%;
+        font-size: 85%;
     }
 
     footer .section-1, .section-2, .section-3 {
@@ -599,17 +610,29 @@ footer .section-3 p {
     footer .section-1, .section-2, .section-3 {
         padding-left: 4rem;
     }
+
+    footer .section-2 h4, .section-3 h4{
+        font-size: 160%;
+    }
+
+    footer .section-2 p, .section-3 p{
+        font-size: 135%;
+    }
+
+    footer .section-4{
+        font-size: 140%;
+    }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Extra large devices (large laptops and desktops, 1300px and up) */
+@media only screen and (min-width: 1300px) {
     .logo1 {
         width: 50%;
     }
 
     .home1 {
         width: 70%;
-        margin-top: -385px;
+        margin-top: -415px;
         float: right !important;
         display: block !important;
     }
@@ -621,6 +644,7 @@ footer .section-3 p {
 
     .intro p, .intro button {
         margin-right: 12rem;
+        font-size: 140%;
     }
 
     .we-excel {
@@ -640,8 +664,8 @@ footer .section-3 p {
     }
 
     .contact-list {
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 10%;
+        margin-right: 10%;
         flex: 1 0 0%;
         width: 100%;
     }
@@ -651,28 +675,131 @@ footer .section-3 p {
     }
 
     .contact-list img{
-        width: 180px;
-        height: 180px;
+        width: 50%;
+        height: 90%;
     }
 
     .contact-list h5{
-        font-size: 40px;
+        font-size: 230%;
     }
 
     .contact-list p{
-        font-size: 35px;
+        font-size: 170%;
     }
 
     .contact-list button{
-        padding: 10px;
-        font-size: 23px;
+        padding: 4%;
+        font-size: 125%;
     }
 
     footer .section-1, .section-2, .section-3 {
         padding-left: 5rem;
     }
+
+    footer .section-2 h4, .section-3 h4{
+        font-size: 175%;
+    }
+
+    footer .section-2 p, .section-3 p{
+        font-size: 160%;
+    }
+
+    footer .section-4{
+        font-size: 140%;
+    }
 }
 
+/* Larger than above (desktops 1800px and up) */
+@media only screen and (min-width: 1800px) {
+    header{
+        font-size: 145%;
+    }
+    header img{
+        width: 75px;
+    }
+
+    .logo1 {
+        width: 50%;
+    }
+
+    .home1 {
+        width: 70%;
+        margin-top: -480px;
+        float: right !important;
+        display: block !important;
+    }
+
+    .intro {
+        width: 45%;
+        background-color: #897661 !important;
+    }
+
+    .intro p, .intro button {
+        margin-right: 12rem;
+        font-size: 150%;
+    }
+
+    .we-excel {
+        font-size: 110px;
+    }
+
+    .aboutus img {
+        width: 600px;
+    }
+
+    .aboutus p {
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-size: 145%;
+        line-height: 2;
+        margin-right: 20%;
+    }
+
+    .contact-list {
+        margin-left: 10%;
+        margin-right: 10%;
+        flex: 1 0 0%;
+        width: 100%;
+    }
+
+    .align-text-center{
+        display: flex;
+    }
+
+    .contact-list img{
+        width: 50%;
+        height: 90%;
+    }
+
+    .contact-list h5{
+        font-size: 270%;
+    }
+
+    .contact-list p{
+        font-size: 200%;
+    }
+
+    .contact-list button{
+        padding: 3%;
+        font-size: 150%;
+    }
+
+    footer .section-1, .section-2, .section-3 {
+        padding-left: 5rem;
+    }
+
+    footer .section-2 h4, .section-3 h4{
+        font-size: 175%;
+    }
+
+    footer .section-2 p, .section-3 p{
+        font-size: 160%;
+    }
+
+    footer .section-4{
+        font-size: 140%;
+    }
+}
 /*Animation*/
 .fadeInUp {
     visibility: visible !important;
