@@ -4,7 +4,7 @@ body {
     background-attachment: fixed;
 }
 
-header{
+header {
     font-size: 115%;
 }
 
@@ -35,9 +35,11 @@ header{
     line-height: 1.2;
     margin-right: 14rem;
 }
-.intro button{
+
+.intro button {
     margin-right: 14rem;
 }
+
 .call-btn span {
     cursor: pointer;
     display: inline-block;
@@ -129,7 +131,7 @@ header{
     padding-top: 20px;
     color: white;
     font-weight: bolder;
-    text-align:start;
+    text-align: start;
     letter-spacing: 2px;
     font-size: larger;
     line-height: 2;
@@ -152,7 +154,7 @@ header{
     width: 100%;
 }
 
-.align-text-center{
+.align-text-center {
     display: flex;
 }
 
@@ -294,9 +296,10 @@ footer .section-3 p {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    section{
+    section {
         padding: 40px 0;
     }
+
     .logo1 {
         width: 100%;
     }
@@ -320,7 +323,7 @@ footer .section-3 p {
         margin-right: 2rem;
     }
 
-    .intro button{
+    .intro button {
         margin-right: 2rem;
     }
 
@@ -332,14 +335,14 @@ footer .section-3 p {
         width: 240px;
     }
 
-    .aboutus p{
+    .aboutus p {
         font-weight: bold;
         letter-spacing: 1.2px;
         font-size: 10.5px;
         line-height: 1.4;
     }
 
-    .align-text-center{
+    .align-text-center {
         display: grid;
         justify-items: center;
     }
@@ -355,31 +358,33 @@ footer .section-3 p {
         margin-bottom: 10px;
         margin-right: 1%;
     }
-    
+
     .contact-list:nth-child(2) {
         margin-top: 10px;
         margin-left: 1%;
     }
 
-    .contact-list img{
+    .contact-list img {
         width: 70%;
         height: 90%;
     }
 
-    .contact-list h5{
+    .contact-list h5 {
         font-size: 155%;
     }
 
-    .contact-list p{
+    .contact-list p {
         font-size: 100%;
     }
 
-    .contact-list button{
+    .contact-list button {
         padding: 3%;
         font-size: 85%;
     }
 
-    footer .section-1, .section-2, .section-3 {
+    footer .section-1,
+    .section-2,
+    .section-3 {
         padding-left: 1rem;
     }
 }
@@ -410,7 +415,7 @@ footer .section-3 p {
         margin-right: 0rem;
     }
 
-    .intro button{
+    .intro button {
         margin-right: 0rem;
     }
 
@@ -429,7 +434,7 @@ footer .section-3 p {
         line-height: 1.4;
     }
 
-    .align-text-center{
+    .align-text-center {
         display: grid;
         justify-items: center;
     }
@@ -445,31 +450,33 @@ footer .section-3 p {
         margin-bottom: 10px;
         margin-right: 1%;
     }
-    
+
     .contact-list:nth-child(2) {
         margin-top: 10px;
         margin-left: 1%;
     }
 
-    .contact-list img{
+    .contact-list img {
         width: 140px;
         height: 140px;
     }
 
-    .contact-list h5{
+    .contact-list h5 {
         font-size: 35px;
     }
 
-    .contact-list p{
+    .contact-list p {
         font-size: 27px;
     }
 
-    .contact-list button{
+    .contact-list button {
         padding: 10px;
         font-size: 20px;
     }
 
-    footer .section-1, .section-2, .section-3 {
+    footer .section-1,
+    .section-2,
+    .section-3 {
         padding-left: 2rem;
     }
 }
@@ -492,7 +499,8 @@ footer .section-3 p {
         background-color: #897661 !important;
     }
 
-    .intro p, .intro button {
+    .intro p,
+    .intro button {
         margin-right: 3rem;
     }
 
@@ -518,29 +526,31 @@ footer .section-3 p {
         width: 100%;
     }
 
-    .align-text-center{
+    .align-text-center {
         display: flex;
     }
 
-    .contact-list img{
+    .contact-list img {
         width: 90px;
         height: 90px;
     }
 
-    .contact-list h5{
+    .contact-list h5 {
         font-size: 24px;
     }
 
-    .contact-list p{
+    .contact-list p {
         font-size: 18px;
     }
 
-    .contact-list button{
+    .contact-list button {
         padding: 6px;
         font-size: 12px;
     }
 
-    footer .section-1, .section-2, .section-3 {
+    footer .section-1,
+    .section-2,
+    .section-3 {
         padding-left: 3rem;
     }
 }
@@ -563,7 +573,8 @@ footer .section-3 p {
         background-color: #897661 !important;
     }
 
-    .intro p, .intro button {
+    .intro p,
+    .intro button {
         margin-right: 7rem;
     }
 
@@ -589,41 +600,45 @@ footer .section-3 p {
         width: 100%;
     }
 
-    .align-text-center{
+    .align-text-center {
         display: flex;
     }
 
-    .contact-list img{
+    .contact-list img {
         width: 120px;
         height: 120px;
     }
 
-    .contact-list h5{
+    .contact-list h5 {
         font-size: 30px;
     }
 
-    .contact-list p{
+    .contact-list p {
         font-size: 25px;
     }
 
-    .contact-list button{
+    .contact-list button {
         padding: 9px;
         font-size: 15px;
     }
 
-    footer .section-1, .section-2, .section-3 {
+    footer .section-1,
+    .section-2,
+    .section-3 {
         padding-left: 4rem;
     }
 
-    footer .section-2 h4, .section-3 h4{
+    footer .section-2 h4,
+    .section-3 h4 {
         font-size: 160%;
     }
 
-    footer .section-2 p, .section-3 p{
+    footer .section-2 p,
+    .section-3 p {
         font-size: 135%;
     }
 
-    footer .section-4{
+    footer .section-4 {
         font-size: 100%;
     }
 }
@@ -646,7 +661,8 @@ footer .section-3 p {
         background-color: #897661 !important;
     }
 
-    .intro p, .intro button {
+    .intro p,
+    .intro button {
         margin-right: 12rem;
         font-size: 140%;
     }
@@ -674,51 +690,56 @@ footer .section-3 p {
         width: 100%;
     }
 
-    .align-text-center{
+    .align-text-center {
         display: flex;
     }
 
-    .contact-list img{
+    .contact-list img {
         width: 50%;
         height: 90%;
     }
 
-    .contact-list h5{
+    .contact-list h5 {
         font-size: 230%;
     }
 
-    .contact-list p{
+    .contact-list p {
         font-size: 170%;
     }
 
-    .contact-list button{
+    .contact-list button {
         padding: 4%;
         font-size: 125%;
     }
 
-    footer .section-1, .section-2, .section-3 {
+    footer .section-1,
+    .section-2,
+    .section-3 {
         padding-left: 5rem;
     }
 
-    footer .section-2 h4, .section-3 h4{
+    footer .section-2 h4,
+    .section-3 h4 {
         font-size: 175%;
     }
 
-    footer .section-2 p, .section-3 p{
+    footer .section-2 p,
+    .section-3 p {
         font-size: 160%;
     }
 
-    footer .section-4{
+    footer .section-4 {
         font-size: 128%;
     }
 }
 
 /* Larger than above (desktops 1800px and up) */
 @media only screen and (min-width: 1800px) {
-    header{
+    header {
         font-size: 145%;
     }
-    header img{
+
+    header img {
         width: 75px;
     }
 
@@ -738,7 +759,8 @@ footer .section-3 p {
         background-color: #897661 !important;
     }
 
-    .intro p, .intro button {
+    .intro p,
+    .intro button {
         margin-right: 12rem;
         font-size: 150%;
     }
@@ -766,44 +788,49 @@ footer .section-3 p {
         width: 100%;
     }
 
-    .align-text-center{
+    .align-text-center {
         display: flex;
     }
 
-    .contact-list img{
+    .contact-list img {
         width: 50%;
         height: 90%;
     }
 
-    .contact-list h5{
+    .contact-list h5 {
         font-size: 270%;
     }
 
-    .contact-list p{
+    .contact-list p {
         font-size: 200%;
     }
 
-    .contact-list button{
+    .contact-list button {
         padding: 3%;
         font-size: 150%;
     }
 
-    footer .section-1, .section-2, .section-3 {
+    footer .section-1,
+    .section-2,
+    .section-3 {
         padding-left: 5rem;
     }
 
-    footer .section-2 h4, .section-3 h4{
+    footer .section-2 h4,
+    .section-3 h4 {
         font-size: 175%;
     }
 
-    footer .section-2 p, .section-3 p{
+    footer .section-2 p,
+    .section-3 p {
         font-size: 160%;
     }
 
-    footer .section-4{
+    footer .section-4 {
         font-size: 130%;
     }
 }
+
 /*Animation*/
 .fadeInUp {
     visibility: visible !important;
@@ -855,5 +882,63 @@ footer .section-3 p {
     100% {
         opacity: 1;
         transform: none;
+    }
+}
+
+/*Preloader*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 hwb(34 13% 55%);
+}
+
+.preloader img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 45%;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-name: preloaderFall;
+    transition: transform .3s ease-in-out;
+    transition-delay: 6s;
+    transition-duration: 5s;
+    transform: scale(2.9);
+}
+
+@keyframes preloaderFall {
+    0% {
+        top: -7%;
+    }
+
+    50% {
+        top: 45%
+    }
+
+    60% {
+        top: 40%
+    }
+
+    70% {
+        top: 45%;
+    }
+
+    80% {
+        top: 43%;
+    }
+
+    90% {
+        top: 45%;
+        transition: transform .1s ease-in-out;
+        transform: scale(1.5);
     }
 }

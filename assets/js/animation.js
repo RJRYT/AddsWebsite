@@ -87,3 +87,19 @@ jQuery(document).ready(function ($) {
 		})
 	}
 })
+
+function HidePreload() {
+    const x = document.getElementById("preloader");
+    let op = 100;
+    const id = setInterval(frame, 20);
+    function frame() {
+        if (op == 0) {
+            clearInterval(id);
+            x.remove();
+        }
+        else {
+            op--;
+            x.style.opacity = `${op}%`
+        }
+    }
+}
