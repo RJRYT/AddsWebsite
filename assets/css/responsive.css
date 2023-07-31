@@ -91,14 +91,17 @@ header{
 
 .we-excel-list img {
     width: 120px;
+    height: 120px;
 }
 
 .we-excel-list p {
+    display: inline-grid;
     font-weight: bold;
     color: white;
     margin: 0;
-    padding-top: 25px;
-    font-size: 170%;
+    font-size: 150%;
+    text-align: start;
+    align-content: space-evenly;
 }
 
 /*about us*/
@@ -263,6 +266,7 @@ footer .section-1 .social-media {
 
 footer .section-1 .social-media a {
     background-color: #fcfcfb;
+    color: #866c52;
     width: 35px;
     height: 30px;
     padding: 5px;
@@ -620,7 +624,7 @@ footer .section-3 p {
     }
 
     footer .section-4{
-        font-size: 140%;
+        font-size: 100%;
     }
 }
 
@@ -705,7 +709,7 @@ footer .section-3 p {
     }
 
     footer .section-4{
-        font-size: 140%;
+        font-size: 128%;
     }
 }
 
@@ -797,7 +801,7 @@ footer .section-3 p {
     }
 
     footer .section-4{
-        font-size: 140%;
+        font-size: 130%;
     }
 }
 /*Animation*/
