@@ -101,7 +101,7 @@ header {
     font-weight: bold;
     color: white;
     margin: 0;
-    font-size: 150%;
+    font-size: 80%;
     text-align: start;
     align-content: space-evenly;
 }
@@ -239,7 +239,7 @@ header {
 
 .projects p {
     font-weight: bold;
-    font-size: 200%;
+    font-size: 110%;
     margin-bottom: 30px;
 }
 
@@ -320,11 +320,11 @@ footer .section-3 p {
         line-height: 1.5;
         letter-spacing: 4px;
         font-size: larger;
-        margin-right: 2rem;
+        margin-right: 0rem;
     }
 
     .intro button {
-        margin-right: 2rem;
+        margin-right: 0rem;
     }
 
     .we-excel {
@@ -333,6 +333,7 @@ footer .section-3 p {
 
     .aboutus img {
         width: 240px;
+        display: none;
     }
 
     .aboutus p {
@@ -340,6 +341,7 @@ footer .section-3 p {
         letter-spacing: 1.2px;
         font-size: 10.5px;
         line-height: 1.4;
+        text-align: center;
     }
 
     .align-text-center {
@@ -589,7 +591,7 @@ footer .section-3 p {
     .aboutus p {
         font-weight: bolder;
         letter-spacing: 1.5px;
-        font-size: larger;
+        font-size: large;
         line-height: 1.7;
     }
 
@@ -776,7 +778,7 @@ footer .section-3 p {
     .aboutus p {
         font-weight: bolder;
         letter-spacing: 2px;
-        font-size: 145%;
+        font-size: 140%;
         line-height: 2;
         margin-right: 20%;
     }

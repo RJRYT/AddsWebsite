@@ -72,7 +72,7 @@ jQuery(document).ready(function ($) {
 					margin: 2
 				},
 				460: {
-					items: 2,
+					items: 1,
 					margin: 5
 				},
 				576: {
