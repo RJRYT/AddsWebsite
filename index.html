@@ -5,204 +5,563 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Adds - The real builders</title>
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;display=swap">
-    <link rel="stylesheet" href="/assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <!-- sites -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/owl.css">
 
-    
-    
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
 </head>
-<!-- style="background-image:linear-gradient(rgb(226, 223, 220),hwb(34 13% 55%))"  -->
-<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" id="mainNav" style="padding: 3px !important;">
-        <div class="container"> <img src="/assets/img/adds-top-logo.png" alt="logo of adds" width="40px"> <button
-                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right"
-                type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
-                    class="fa fa-bars"></i></button>
 
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto text-uppercase">
-                    <li class="nav-item active"><a class="nav-link" href="#home">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/blog">BLOG</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">ABOUT US</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
-                </ul>
+<!--
+    Adds Construction website
+    Developed under .node by Stacks Development
+    Written by RJRYT https://rjryt.me
+-->
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54" onload="HidePreload()">
+
+    <!--Preloader section-->
+    <div class="preloader" id="preloader">
+        <img src="./assets/img/adds-top-logo.png" alt="preloader">
+    </div>
+    <!--Preloader section end-->
+
+    <!--Nav bar section-->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" id="mainNav"
+            style="padding: 3px !important;">
+            <div class="container mw-100">
+                <a class="navbar-brand p-0" href="#" style="font-family: var(--bs-font-sans-serif);">
+                    <img src="./assets/img/adds-top-logo.png" alt="Adds" width="35px"
+                        class="d-inline-block text-center">
+                </a>
+                <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                    class="navbar-toggler navbar-toggler-right" style="font-size: 100%;" type="button"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+                        class="fa fa-bars"></i></button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto text-uppercase text-center">
+                        <li class="nav-item active pe-lg-4"><a class="nav-link fw-bold" href="#home">HOME</a></li>
+                        <li class="nav-item pe-lg-4"><a class="nav-link fw-bold" href="#about">ABOUT US</a></li>
+                        <li class="nav-item pe-lg-4"><a class="nav-link fw-bold" href="#projects">PROJECTS</a></li>
+                        <li class="nav-item pe-lg-4"><a class="nav-link fw-bold" href="./blog">BLOG</a></li>
+                        <li class="nav-item pe-lg-4"><a class="nav-link fw-bold" href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Nav bar section end-->
+
+    <!--Landing page-->
+    <section id="home" class="pt-5 pb-sm-5">
+        <div class="container-fluid p-0">
+            <div class="card bg-transparent border-0 p-0 m-0">
+                <div class="card-body p-0 m-0">
+                    <div class="row p-0 m-0">
+                        <div class="col p-0 m-0">
+                            <img class="fadeInUp-m logo1 text-start" src="./assets/img/adds-home-logo.png" alt="Logo">
+                            <div class="fadeInUp-x text-center text-capitalize mt-5 mb-2 pt-4 pb-4 fw-bold intro">
+                                <p class="bgtext">TRANSFORM YOUR <br> DREAM SPACE INTO <br> REALITY WITH OUR <br>
+                                    EXPERT
+                                    TEAM.</p>
+                                <button onclick="document.getElementById('contact').scrollIntoView();"
+                                    class="call-btn btn btn-light" style="vertical-align:middle"> <span>BOOK A
+                                        CALL</span></button>
+                            </div>
+                            <img class="fadeInUp-s home1 text-end float-end" src="./assets/img/adds-house.png"
+                                alt="Home">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shade d-sm-none d-md-block d-lg-block"></div>
+        </div>
+    </section>
+    <!--Landing page end-->
+
+    <!-- about -->
+    <section id="about" class="pt-sm-2 pb-sm-5">
+        <div class="container-fluid p-0">
+            <div class="card bg-transparent border-0 p-0 m-0">
+                <div class="aboutus card-body p-0 me-1">
+                    <h1>ABOUT US</h1>
+                    <div class="img">
+                        <img src="./assets/img/about/adds-about-logo.png" alt="About us">
+                    </div>
+                    <p>adds builders, a leading construction company based in the scenic city of trivandrum
+                        vettamukku,thirumala. we are dedicated to delivering exceptional construction solutions with
+                        simplicity and professionalism at the core of our values. with years of experience and a team of
+                        highly skilled experts, we take pride in bringing your vision to life, whether it's a dream home
+                        or a commercial space. our commitment to quality, efficiency, and customer satisfaction is
+                        unwavering, making us the preferred choice for construction projects of all sizes. trust adds
+                        builders to build your dreams into reality.</p>
+                </div>
             </div>
         </div>
-    </nav>
-    <header class="masthead mt-4" id="home" >
-        <div class="container">
-            <div class="intro-text">
-                 <img class="img2" src="/assets/img/adds-home-logo.png" margin-top="10" float="left" width="500px" > 
-                 <div class="bgbox"></div>
-                 <b class="bgtext">TRANSFORM YOUR <br> DREAM SPACE INTO <br> REALITY WITH OUR <br> EXPERT TEAM.</b>
-                 <div class="bcenter">
-                 <button  class="button" style="vertical-align:middle"> <span>BOOK A CALL</span></button>
+    </section>
+    <!-- about end-->
+
+    <!--Our projects-->
+    <section id="projects" class="pt-0 pb-0">
+        <div class="container-fluid p-0">
+            <div class="card-anim card bg-transparent border-0 p-0 m-0">
+                <div class="projects card-body p-0 me-1">
+                    <h4 class="text-center text-capitalize text-light"><span class="text-danger">featured</span>
+                        projects</h4>
+                    <p class="text-center text-capitalize text-light">Embark on a journey through our signature
+                        projects.</p>
                 </div>
-                <img class="img1"src="/assets/img/adds-house.png" >  
-                <div class="intro-lead-in"></div>
-                <div class="intro-heading text-uppercase"></div>
             </div>
-        </div> 
-     
-     </div>
-     
+            <div class="card-anim owl-projects owl-carousel">
+                <div class="item">
+                    <img alt="project-1.jpg" src="./assets/img/projects/project-1.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-10.jpg" src="./assets/img/projects/project-2.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-102.jpg" src="./assets/img/projects/project-5.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-100.jpg" src="./assets/img/projects/project-3.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-101.jpg" src="./assets/img/projects/project-4.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-104.jpg" src="./assets/img/projects/project-7.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-106.jpg" src="./assets/img/projects/project-9.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-105.jpg" src="./assets/img/projects/project-8.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-107.jpg" src="./assets/img/projects/project-10.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-103.jpg" src="./assets/img/projects/project-6.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-108.jpg" src="./assets/img/projects/project-11.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-109.jpg" src="./assets/img/projects/project-12.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-11.jpg" src="./assets/img/projects/project-13.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-12.jpg" src="./assets/img/projects/project-14.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-13.jpg" src="./assets/img/projects/project-15.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-14.jpg" src="./assets/img/projects/project-16.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-15.jpg" src="./assets/img/projects/project-17.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-16.jpg" src="./assets/img/projects/project-18.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-17.jpg" src="./assets/img/projects/project-19.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-18.jpg" src="./assets/img/projects/project-20.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-19.jpg" src="./assets/img/projects/project-21.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-2.jpg" src="./assets/img/projects/project-22.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-20.jpg" src="./assets/img/projects/project-23.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-21.jpg" src="./assets/img/projects/project-24.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-22.jpg" src="./assets/img/projects/project-25.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-23.jpg" src="./assets/img/projects/project-26.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-24.jpg" src="./assets/img/projects/project-27.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-25.jpg" src="./assets/img/projects/project-28.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-26.jpg" src="./assets/img/projects/project-29.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-28.jpg" src="./assets/img/projects/project-31.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-27.jpg" src="./assets/img/projects/project-30.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-29.jpg" src="./assets/img/projects/project-32.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-3.jpg" src="./assets/img/projects/project-33.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-30.jpg" src="./assets/img/projects/project-34.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-31.jpg" src="./assets/img/projects/project-35.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-32.jpg" src="./assets/img/projects/project-36.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-33.jpg" src="./assets/img/projects/project-37.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-34.jpg" src="./assets/img/projects/project-38.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-35.jpg" src="./assets/img/projects/project-39.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-36.jpg" src="./assets/img/projects/project-40.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-37.jpg" src="./assets/img/projects/project-41.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-38.jpg" src="./assets/img/projects/project-42.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-39.jpg" src="./assets/img/projects/project-43.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-4.jpg" src="./assets/img/projects/project-44.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-40.jpg" src="./assets/img/projects/project-45.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-41.jpg" src="./assets/img/projects/project-46.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-42.jpg" src="./assets/img/projects/project-47.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-43.jpg" src="./assets/img/projects/project-48.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-44.jpg" src="./assets/img/projects/project-49.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-45.jpg" src="./assets/img/projects/project-50.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-46.jpg" src="./assets/img/projects/project-51.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-47.jpg" src="./assets/img/projects/project-52.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-48.jpg" src="./assets/img/projects/project-53.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-49.jpg" src="./assets/img/projects/project-54.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-5.jpg" src="./assets/img/projects/project-55.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-50.jpg" src="./assets/img/projects/project-56.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-51.jpg" src="./assets/img/projects/project-57.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-52.jpg" src="./assets/img/projects/project-58.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-53.jpg" src="./assets/img/projects/project-59.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-54.jpg" src="./assets/img/projects/project-60.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-55.jpg" src="./assets/img/projects/project-61.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-56.jpg" src="./assets/img/projects/project-62.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-57.jpg" src="./assets/img/projects/project-63.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-58.jpg" src="./assets/img/projects/project-64.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-59.jpg" src="./assets/img/projects/project-65.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-6.jpg" src="./assets/img/projects/project-66.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-60.jpg" src="./assets/img/projects/project-67.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-61.jpg" src="./assets/img/projects/project-68.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-62.jpg" src="./assets/img/projects/project-69.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-63.jpg" src="./assets/img/projects/project-70.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-64.jpg" src="./assets/img/projects/project-71.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-65.jpg" src="./assets/img/projects/project-72.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-66.jpg" src="./assets/img/projects/project-73.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-67.jpg" src="./assets/img/projects/project-74.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-68.jpg" src="./assets/img/projects/project-75.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-69.jpg" src="./assets/img/projects/project-76.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-7.jpg" src="./assets/img/projects/project-77.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-70.jpg" src="./assets/img/projects/project-78.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-71.jpg" src="./assets/img/projects/project-79.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-72.jpg" src="./assets/img/projects/project-80.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-73.jpg" src="./assets/img/projects/project-81.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-74.jpg" src="./assets/img/projects/project-82.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-75.jpg" src="./assets/img/projects/project-83.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-76.jpg" src="./assets/img/projects/project-84.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-77.jpg" src="./assets/img/projects/project-85.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-78.jpg" src="./assets/img/projects/project-86.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-79.jpg" src="./assets/img/projects/project-87.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-8.jpg" src="./assets/img/projects/project-88.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-80.jpg" src="./assets/img/projects/project-89.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-81.jpg" src="./assets/img/projects/project-90.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-82.jpg" src="./assets/img/projects/project-91.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-83.jpg" src="./assets/img/projects/project-92.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-84.jpg" src="./assets/img/projects/project-93.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-85.jpg" src="./assets/img/projects/project-94.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-86.jpg" src="./assets/img/projects/project-95.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-87.jpg" src="./assets/img/projects/project-96.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-88.jpg" src="./assets/img/projects/project-97.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-89.jpg" src="./assets/img/projects/project-98.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-9.jpg" src="./assets/img/projects/project-99.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-90.jpg" src="./assets/img/projects/project-100.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-91.jpg" src="./assets/img/projects/project-101.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-92.jpg" src="./assets/img/projects/project-102.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-93.jpg" src="./assets/img/projects/project-103.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-94.jpg" src="./assets/img/projects/project-104.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-95.jpg" src="./assets/img/projects/project-105.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-96.jpg" src="./assets/img/projects/project-106.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-97.jpg" src="./assets/img/projects/project-107.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-98.jpg" src="./assets/img/projects/project-108.jpg">
+                </div>
+                <div class="item">
+                    <img alt="project-99.jpg" src="./assets/img/projects/project-109.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Our projects end-->
 
     <!-- we excal -->
-
-    <div class="we-excel-container" id="services">
-      
-        <header class="header-we-align">
-            <div class="header-container">
-                <h1 class="h1-text">WE EXCEL IN</h1>
-            </div>
-        </header>
-        <!-- 4 box -->
-        <main>
-            <div class="main-container">
-            <div class="row">
-                <div class="colume">
-                    <img class="exel-image" src="assets/img/we exel/icon shield.png" alt="" srcset="">
-                    <p class="icon-paragraph">WE TAKE PRIDE IN<br>DELIVERING TOP-NOTCH <br> CONSTRUCTION SERVICES.</p>
+    <section id="services" class="pt-sm-5 pb-sm-5">
+        <div class="container-fluid p-0">
+            <div class="card bg-transparent border-0 p-0 m-0">
+                <div class="card-body p-0 m-0">
+                    <div class="row" style="visibility: hidden; animation-name: fadeInUp-s;">
+                        <div class="col">
+                            <h3 class=" text-center text-capitalize fw-bold we-excel">WE EXCEL IN</h3>
+                        </div>
+                    </div>
+                    <div class="row" style="visibility: hidden; animation-name: fadeInUp-s;">
+                        <div class="col we-excel-list">
+                            <img src="./assets/img/we exel/icon shield.png" alt="We excel in">
+                            <p>WE TAKE PRIDE IN<br>DELIVERING TOP-NOTCH <br> CONSTRUCTION
+                                SERVICES.</p>
+                        </div>
+                        <div class="col we-excel-list">
+                            <img src="./assets/img/we exel/document icon.png" alt="We excel in">
+                            <p>FROM CONCEPT <br> TO COMPLETION.</p>
+                        </div>
+                    </div>
+                    <div class="row" style="visibility: hidden; animation-name: fadeInUp-s;">
+                        <div class="col we-excel-list">
+                            <img src="./assets/img/we exel/worker icon.png" alt="We excel in">
+                            <p>REDEFINE QUALITY AND<br>CRAFTSMANSHIP.</p>
+                        </div>
+                        <div class="col we-excel-list">
+                            <img src="./assets/img/we exel/handshake icon.png" alt="We excel in">
+                            <p>COMMITMENT<br>TO EXCELLENCE.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="colume">
-                    <img class="exel-image-doc" src="assets/img/we exel/document icon.png" alt="" srcset="">
-                    <p class="icon-paragraph-doc">FROM CONCEPT <br> TO COMPLETION.</p>
-                </div>
             </div>
-            <div class="row">
-                <div class="colume-2">
-                    <img class="exel-image" src="assets/img/we exel/worker icon.png" alt="" srcset="">
-                    <p class="icon-paragraph">REDEFINE QUALITY AND<br>CRAFTSMANSHIP.</p>
-                </div>
-                <div class="colume-2">
-                    <img class="exel-image" src="assets/img/we exel/handshake icon.png" alt="" srcset="">
-                    <p class="icon-paragraph">COMMITMENT<br>TO EXCELLENCE.</p>
-                </div>
-            </div>
-            </div>
-        </main>
-    </div>
-    
-    <!-- we exel end -->
-    <!-- about -->
-    
-    <div class="about-container" id="about">
-       
-            <img class="about-logo" src="/assets/img/about/adds-about-logo.png" alt="">
-            <h1 class="about-heading">ABOUT US</h1>
-            <!-- paragarph -->
-            <div class="paragraph-container">
-
-                <p class="paragraph-align about-paragraph1">adds builders, a leading construction company</p>
-                <p class="paragraph-align about-paragraph2">based in the scenic city of trivandrum</p>
-                <p class="paragraph-align about-paragraph3">vettamukku,thirumala.</p>
-                <p class="paragraph-align about-paragraph4">we are dedicated to delivering exceptional</p>
-                <p class="paragraph-align about-paragraph5">construction solutions with simplicity and</p>
-                <p class="paragraph-align about-paragraph6">professionalism at the core of our values.</p>
-                <p class="paragraph-align about-paragraph7">with years of experience and a team of</p>
-                <p class="paragraph-align about-paragraph8">highly skilled experts, we take pride in</p>
-                <p class="paragraph-align about-paragraph9">bringing your vision to life,</p>
-                <p class="paragraph-align about-paragraph10">whether it's a dream</p>
-                <p class="paragraph-align about-paragraph11">home or a commercial space.</p>
-                <p class="paragraph-align about-paragraph12">our commitment to quality, efficiency,</p>
-                <p class="paragraph-align about-paragraph13">and customer satisfaction is</p>
-                <p class="paragraph-align about-paragraph14">unwavering, making us the preferred choice</p>
-                <p class="paragraph-align about-paragraph15">for construction projects of all sizes.</p>
-                <p class="paragraph-align about-paragraph16">trust adds builders to build your dreams</p>
-                <p class="paragraph-align about-paragraph17">into reality, and experience the finest</p>
-                <p class="paragraph-align about-paragraph18">craftsmanship and service in</p>
-                <p class="paragraph-align about-paragraph19">the industry .</p>
-            </div>
-    </div>
-<!-- FOOTER WORK -->
-
-<footer>
-    <div class="footer-container">
-         <!-- profile -->
-         <main class="profile-align">
-            <div class="profile-box1">
-                <img class="profile-person1" src="https://www.w3schools.com/howto/img_avatar.png" >
-                <h5 class="profile-heading1">NAMEXYZ</h5>
-                <p class="profile-paragraph1">FOUNDER</p>
-                <button class="profile-button"><img class="profile-watsapp" src="assets/img/profile/watsapp.png">CLICK TO CHAT</button>
-            </div>
-            <div class="profile-box2">
-                <img class="profile-person1" src="https://www.w3schools.com/howto/img_avatar.png" >
-                <h5 class="profile-heading1">NAMEXYZ</h5>
-                <p class="profile-paragraph1">FOUNDER</p>
-                <button class="profile-button"><img class="profile-watsapp" src="assets/img/profile/watsapp.png">CLICK TO CHAT</button>
-            </div>
-        </main>
-
-<!-- profile end -->
-        
-        <div class="footer-box">
-
-
-           
-
-
-        <img class="footer-logo" src="assets/img/footer-logo.png" alt="">
-        <h6 class="footer-text-1">FOLLOW US</h6>
-        <!-- social media -->
-        <div class="social-media">
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-youtube"></a>
         </div>
-        <!-- quick links -->
-        <div class="q-links">
-        <h4 class="q-heading">QUICK LINKS</h4>
-        <ul>
-            <li class="q-paragraph"><a class="quick-footer-link" href="#home">HOME</a></li>
-            <li class="q-paragraph"><a class="quick-footer-link" href="#services">SERVICES</a></li>
-            <li class="q-paragraph"><a class="quick-footer-link" href="#about">ABOUT US</a></li>
-            <li class="q-paragraph"><a class="quick-footer-link" href="/blog">BLOG</a></li>
-            <li class="q-paragraph"><a class="quick-footer-link" href="#contact">CONTACT</a></li>
-        </ul>
-    </div>
-    <!-- our office -->
-    <div class="o-office">
-        <h4 class="o-heading">OUR OFFICE</h4>
-        <img class="footer-loc-logo" src="assets/img/footer/loc-footer.png" alt="">
-        <div class="loc-office-paragraph">
-        <p class="paragraph-align-office paragraph-office-1">KESAV EDIFICE, First floor</p>
-        <p class="paragraph-align-office paragraph-office-2">C 39/1720_8</p>
-        <p class="paragraph-align-office paragraph-office-3">(Shop No._8,9,10,11)</p>
-        <p class="paragraph-align-office paragraph-office-4">VETTAMUKKU,THIRUMALA</p>
-        <p class="paragraph-align-office paragraph-office-5">695006</p>
-        <img class="footer-loc-logo" src="assets/img/footer/call-footer.png" alt="">
-        <p class="phone-number">+91 97469 91668</p>
-        <img class="email-footer" src="assets/img/footer/email-footer.png" alt="">
-        <p class="e-mail">xxxxxxxx@gmail.com</p>
-        
-    </div>
-    </div>
-    
-    <p class="adds-copyright">copyright © 2023 adds builders & developers pvt ltd.all right reserved</p>
-    <p class="dotnode-copyright">developed by</p>
-    <h4 class="dotnode-copyright-name">.node</h4>
-    </div>
-    </div> 
-    </div>
-    </div>
-</footer>
-</div>
+    </section>
+    <!-- we excal end-->
 
-    </header>
-    
+    <!--Contact-->
+    <section id="contact" class="pt-sm-5 pb-sm-5 mb-5 pb-xx-5 pb-xl-5 bg-transparent">
+        <div class="container-fluid p-0">
+            <div class="row align-text-center">
+                <div class="col contact-list">
+                    <div class="row">
+                        <div class="col">
+                            <img src="./assets/img/contact/contat-person-1.png" alt="Contact Us">
+                        </div>
+                        <div class="col right">
+                            <h5>name xyz</h5>
+                            <p>founder</p>
+                            <button type="button" class="btn btn-light"><i class="fa fa-whatsapp"></i>
+                                Click to chat</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--Contact end-->
 
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/agency.js"></script>
-    <script src="assets/bootstrap/js/script.js"></script>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row text-light">
+                <div class="col section-1">
+                    <img class="logo" src="./assets/img/footer-logo.png" alt="Adds">
+                    <h6 class="text">FOLLOW US</h6>
+                    <div class="social-media">
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+                <div class="col section-2 text-start">
+                    <h4 class="fw-bold mb-4 mt-4">QUICK LINKS</h4>
+                    <p><a class="text-reset" href="#home"><i class="fa fa-angle-right"></i> HOME</a></p>
+                    <p><a class="text-reset" href="#about"><i class="fa fa-angle-right"></i> ABOUT US</a></p>
+                    <p><a class="text-reset" href="#projects"><i class="fa fa-angle-right"></i> PROJECTS</a></p>
+                    <p><a class="text-reset" href="/blog"><i class="fa fa-angle-right"></i> BLOG</a></p>
+                    <p><a class="text-reset" href="#contact"><i class="fa fa-angle-right"></i> CONTACT</a></p>
+                </div>
+                <div class="col text-start section-3 ms-3">
+                    <h4 class="fw-bold mb-4 mt-4">OUR OFFICE</h4>
+                    <p><i class="fa fa-map-marker"></i> KESAV EDIFICE, First floor</p>
+                    <p>TC 39/1720_8</p>
+                    <p>(Shop No._8,9,10,11)</p>
+                    <p>VETTAMUKKU,THIRUMALA</p>
+                    <p>695006</p>
+                    <p><i class="fa fa-phone"></i> +91 97469 91668</p>
+                    <p><i class="fa fa-envelope"></i> xxxxxxxx@gmail.com</p>
+                </div>
+                <div class="row">
+                    <div class="col text-light mt-3 section-4">
+                        <span class="text-center text-uppercase">copyright © 2023 adds builders & developers pvt ltd.all
+                            right
+                            reserved.</span> <span class="text-end float-end text-capitalize">Developed by <span
+                                class="fw-bold text-lowercase">.node</span></span>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <!--Footer End-->
+
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/owl.js"></script>
+    <script src="./assets/js/animation.js"></script>
 </body>
 
 </html>

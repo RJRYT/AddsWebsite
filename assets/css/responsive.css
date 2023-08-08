@@ -1,0 +1,946 @@
+body {
+    background-image: linear-gradient(rgb(226, 223, 220), hwb(34 13% 55%));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    font-size: 115%;
+}
+
+/*Landing page*/
+.logo1 {
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.home1 {
+    display: inline;
+    width: 70%;
+    padding-right: 0;
+    margin-right: 0;
+    margin-top: -295px;
+    float: right !important;
+    display: block !important;
+}
+
+.intro {
+    width: 40%;
+    background-color: #897661 !important;
+    color: white;
+}
+
+.intro p {
+    line-height: 1.2;
+    margin-right: 14rem;
+}
+
+.intro button {
+    margin-right: 14rem;
+}
+
+.call-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.call-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.call-btn:hover span {
+    padding-right: 25px;
+}
+
+.call-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.shade {
+    width: 100%;
+    margin-top: -90px;
+    padding-bottom: 177px;
+    position: relative;
+    z-index: 1;
+    background-image: linear-gradient(transparent, hwb(34 37% 34%), transparent);
+    display: none;
+}
+
+/*We excel in*/
+
+.we-excel {
+    width: 100%;
+    background-color: #897661;
+    color: white;
+    font-size: 100px;
+}
+
+.we-excel-list {
+    display: inline-flex;
+    background-color: #897661;
+    padding: 15px;
+    margin: 8px;
+}
+
+.we-excel-list img {
+    width: 120px;
+    height: 120px;
+}
+
+.we-excel-list p {
+    display: inline-grid;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    font-size: 80%;
+    text-align: start;
+    align-content: space-evenly;
+}
+
+/*about us*/
+.aboutus {
+    display: inline;
+}
+
+.aboutus img {
+    width: 600px;
+}
+
+.img {
+    float: left;
+    shape-outside: polygon(0 0, 45% 0, 100% 100%, 0 100%);
+    margin-right: 2rem;
+}
+
+.aboutus h1 {
+    color: white;
+    text-align: center;
+    font-size: 350%;
+}
+
+.aboutus p {
+    padding-top: 20px;
+    color: white;
+    font-weight: bolder;
+    text-align: start;
+    letter-spacing: 2px;
+    font-size: larger;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+/*Contact*/
+.contact-list {
+    display: flexbox;
+    background-color: #897661;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    border: 0.1px solid transparent;
+    border-radius: 50rem;
+    text-transform: uppercase;
+    flex: 1 0 0%;
+    width: 100%;
+}
+
+.align-text-center {
+    display: flex;
+}
+
+.contact-list .row {
+    padding: 0.2rem;
+}
+
+.contact-list:nth-child(1) {
+    margin-right: 25px;
+}
+
+.contact-list:nth-child(2) {
+    margin-left: 25px;
+}
+
+.contact-list img {
+    border: 0.1px solid transparent;
+    border-radius: 50%;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.contact-list .col {
+    padding: 0% !important;
+    text-align: start;
+}
+
+.contact-list .right {
+    display: grid;
+    justify-items: center;
+    vertical-align: middle;
+    align-content: center;
+    justify-content: start;
+
+}
+
+.contact-list p {
+    color: white;
+    text-transform: inherit;
+    padding: 0%;
+    margin: 0%;
+    line-height: 0.5;
+    letter-spacing: 7px;
+}
+
+.contact-list h5 {
+    color: white;
+    text-transform: inherit;
+    padding: 0%;
+    margin: 0%;
+}
+
+.contact-list button {
+    background-color: white;
+    color: #897661;
+    border-radius: 50rem !important;
+    text-transform: inherit;
+    margin-top: 15px;
+}
+
+/*Projects*/
+.owl-projects {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.owl-projects img {
+    width: 500px;
+    height: 500px;
+}
+
+.owl-projects img:hover {
+    transform: skewX(1deg);
+    transition-duration: 1s;
+}
+
+.projects h4 {
+    font-weight: bold;
+    font-size: 350%;
+}
+
+.projects p {
+    font-weight: bold;
+    font-size: 110%;
+    margin-bottom: 30px;
+}
+
+/*Footer*/
+footer {
+    background-color: #866c52;
+    padding-top: 30px;
+}
+
+footer .section-1 {
+    padding-left: 5rem;
+}
+
+footer .section-1 .logo {
+    width: 55%;
+}
+
+footer .section-1 .text {
+    padding-top: 40px;
+    letter-spacing: 4px;
+}
+
+footer .section-1 .social-media {
+    display: inline-flex;
+}
+
+footer .section-1 .social-media a {
+    background-color: #fcfcfb;
+    color: #866c52;
+    width: 35px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 9px;
+}
+
+footer .section-2 a {
+    text-decoration: none;
+}
+
+footer .section-2 a:hover {
+    font-weight: bold;
+}
+
+footer .section-2 p {
+    margin: 0%;
+    line-height: 1.5;
+}
+
+footer .section-3 p {
+    margin: 0%;
+    line-height: 1.5;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 40px 0;
+    }
+
+    .logo1 {
+        width: 100%;
+    }
+
+    .home1 {
+        width: 90%;
+        margin-top: 0px;
+        float: none !important;
+        display: none !important;
+    }
+
+    .intro {
+        width: 100%;
+        background-color: transparent !important;
+    }
+
+    .intro p {
+        line-height: 1.5;
+        letter-spacing: 4px;
+        font-size: larger;
+        margin-right: 0rem;
+    }
+
+    .intro button {
+        margin-right: 0rem;
+    }
+
+    .we-excel {
+        font-size: 60px;
+    }
+
+    .aboutus img {
+        width: 240px;
+        display: none;
+    }
+
+    .aboutus p {
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        font-size: 10.5px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .align-text-center {
+        display: grid;
+        justify-items: center;
+    }
+
+    .contact-list {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 80%;
+        flex: none;
+    }
+
+    .contact-list:nth-child(1) {
+        margin-bottom: 10px;
+        margin-right: 1%;
+    }
+
+    .contact-list:nth-child(2) {
+        margin-top: 10px;
+        margin-left: 1%;
+    }
+
+    .contact-list img {
+        width: 70%;
+        height: 90%;
+    }
+
+    .contact-list h5 {
+        font-size: 155%;
+    }
+
+    .contact-list p {
+        font-size: 100%;
+    }
+
+    .contact-list button {
+        padding: 3%;
+        font-size: 85%;
+    }
+
+    footer .section-1,
+    .section-2,
+    .section-3 {
+        padding-left: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logo1 {
+        width: 80%;
+        margin-left: 55px;
+    }
+
+    .home1 {
+        width: 90%;
+        margin-top: 0px;
+        float: none !important;
+        display: none !important;
+    }
+
+    .intro {
+        width: 100%;
+        background-color: transparent !important;
+    }
+
+    .intro p {
+        line-height: 1.5;
+        letter-spacing: 4px;
+        font-size: larger;
+        margin-right: 0rem;
+    }
+
+    .intro button {
+        margin-right: 0rem;
+    }
+
+    .we-excel {
+        font-size: 70px;
+    }
+
+    .aboutus img {
+        width: 460px;
+    }
+
+    .aboutus p {
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        font-size: 13.5px;
+        line-height: 1.4;
+    }
+
+    .align-text-center {
+        display: grid;
+        justify-items: center;
+    }
+
+    .contact-list {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 80%;
+        flex: none;
+    }
+
+    .contact-list:nth-child(1) {
+        margin-bottom: 10px;
+        margin-right: 1%;
+    }
+
+    .contact-list:nth-child(2) {
+        margin-top: 10px;
+        margin-left: 1%;
+    }
+
+    .contact-list img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .contact-list h5 {
+        font-size: 35px;
+    }
+
+    .contact-list p {
+        font-size: 27px;
+    }
+
+    .contact-list button {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    footer .section-1,
+    .section-2,
+    .section-3 {
+        padding-left: 2rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logo1 {
+        width: 60%;
+    }
+
+    .home1 {
+        width: 70%;
+        margin-top: -345px;
+        float: right !important;
+        display: block !important;
+    }
+
+    .intro {
+        width: 40%;
+        background-color: #897661 !important;
+    }
+
+    .intro p,
+    .intro button {
+        margin-right: 3rem;
+    }
+
+    .we-excel {
+        font-size: 80px;
+    }
+
+    .aboutus img {
+        width: 550px;
+    }
+
+    .aboutus p {
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        font-size: 17px;
+        line-height: 1.4;
+    }
+
+    .contact-list {
+        margin-left: 5%;
+        margin-right: 5%;
+        flex: 1 0 0%;
+        width: 100%;
+    }
+
+    .align-text-center {
+        display: flex;
+    }
+
+    .contact-list img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .contact-list h5 {
+        font-size: 24px;
+    }
+
+    .contact-list p {
+        font-size: 18px;
+    }
+
+    .contact-list button {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    footer .section-1,
+    .section-2,
+    .section-3 {
+        padding-left: 3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .logo1 {
+        width: 60%;
+    }
+
+    .home1 {
+        width: 70%;
+        margin-top: -360px;
+        float: right !important;
+        display: block !important;
+    }
+
+    .intro {
+        width: 40%;
+        background-color: #897661 !important;
+    }
+
+    .intro p,
+    .intro button {
+        margin-right: 7rem;
+    }
+
+    .we-excel {
+        font-size: 100px;
+    }
+
+    .aboutus img {
+        width: 580px;
+    }
+
+    .aboutus p {
+        font-weight: bolder;
+        letter-spacing: 1.5px;
+        font-size: large;
+        line-height: 1.7;
+    }
+
+    .contact-list {
+        margin-left: 6%;
+        margin-right: 6%;
+        flex: 1 0 0%;
+        width: 100%;
+    }
+
+    .align-text-center {
+        display: flex;
+    }
+
+    .contact-list img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .contact-list h5 {
+        font-size: 30px;
+    }
+
+    .contact-list p {
+        font-size: 25px;
+    }
+
+    .contact-list button {
+        padding: 9px;
+        font-size: 15px;
+    }
+
+    footer .section-1,
+    .section-2,
+    .section-3 {
+        padding-left: 4rem;
+    }
+
+    footer .section-2 h4,
+    .section-3 h4 {
+        font-size: 160%;
+    }
+
+    footer .section-2 p,
+    .section-3 p {
+        font-size: 135%;
+    }
+
+    footer .section-4 {
+        font-size: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1300px and up) */
+@media only screen and (min-width: 1300px) {
+    .logo1 {
+        width: 50%;
+    }
+
+    .home1 {
+        width: 70%;
+        margin-top: -415px;
+        float: right !important;
+        display: block !important;
+    }
+
+    .intro {
+        width: 45%;
+        background-color: #897661 !important;
+    }
+
+    .intro p,
+    .intro button {
+        margin-right: 12rem;
+        font-size: 140%;
+    }
+
+    .we-excel {
+        font-size: 110px;
+    }
+
+    .aboutus img {
+        width: 600px;
+    }
+
+    .aboutus p {
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-size: large;
+        line-height: 1.5;
+        margin-right: 20%;
+    }
+
+    .contact-list {
+        margin-left: 10%;
+        margin-right: 10%;
+        flex: 1 0 0%;
+        width: 100%;
+    }
+
+    .align-text-center {
+        display: flex;
+    }
+
+    .contact-list img {
+        width: 45%;
+        height: 95%;
+    }
+
+    .contact-list h5 {
+        font-size: 230%;
+    }
+
+    .contact-list p {
+        font-size: 170%;
+    }
+
+    .contact-list button {
+        padding: 4%;
+        font-size: 125%;
+    }
+
+    footer .section-1,
+    .section-2,
+    .section-3 {
+        padding-left: 5rem;
+    }
+
+    footer .section-2 h4,
+    .section-3 h4 {
+        font-size: 175%;
+    }
+
+    footer .section-2 p,
+    .section-3 p {
+        font-size: 160%;
+    }
+
+    footer .section-4 {
+        font-size: 128%;
+    }
+}
+
+/* Larger than above (desktops 1800px and up) */
+@media only screen and (min-width: 1800px) {
+    header {
+        font-size: 145%;
+    }
+
+    header img {
+        width: 75px;
+    }
+
+    .logo1 {
+        width: 50%;
+    }
+
+    .home1 {
+        width: 70%;
+        margin-top: -480px;
+        float: right !important;
+        display: block !important;
+    }
+
+    .intro {
+        width: 45%;
+        background-color: #897661 !important;
+    }
+
+    .intro p,
+    .intro button {
+        margin-right: 12rem;
+        font-size: 150%;
+    }
+
+    .we-excel {
+        font-size: 110px;
+    }
+
+    .aboutus img {
+        width: 600px;
+    }
+
+    .aboutus p {
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-size: 140%;
+        line-height: 2;
+        margin-right: 20%;
+    }
+
+    .contact-list {
+        margin-left: 10%;
+        margin-right: 10%;
+        flex: 1 0 0%;
+        width: 100%;
+    }
+
+    .align-text-center {
+        display: flex;
+    }
+
+    .contact-list img {
+        width: 50%;
+        height: 90%;
+    }
+
+    .contact-list h5 {
+        font-size: 270%;
+    }
+
+    .contact-list p {
+        font-size: 200%;
+    }
+
+    .contact-list button {
+        padding: 3%;
+        font-size: 150%;
+    }
+
+    footer .section-1,
+    .section-2,
+    .section-3 {
+        padding-left: 5rem;
+    }
+
+    footer .section-2 h4,
+    .section-3 h4 {
+        font-size: 175%;
+    }
+
+    footer .section-2 p,
+    .section-3 p {
+        font-size: 160%;
+    }
+
+    footer .section-4 {
+        font-size: 130%;
+    }
+}
+
+/*Animation*/
+.fadeInUp {
+    visibility: visible !important;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInUpFast;
+}
+
+.fadeInUp-s {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+
+.fadeInUp-m {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+
+.fadeInUp-x {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 20%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUpFast {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/*Preloader*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 hwb(34 13% 55%);
+}
+
+.preloader img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 45%;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-name: preloaderFall;
+    transition: transform .3s ease-in-out;
+    transition-delay: 6s;
+    transition-duration: 5s;
+    transform: scale(2.9);
+}
+
+@keyframes preloaderFall {
+    0% {
+        top: -7%;
+    }
+
+    50% {
+        top: 45%
+    }
+
+    60% {
+        top: 40%
+    }
+
+    70% {
+        top: 45%;
+    }
+
+    80% {
+        top: 43%;
+    }
+
+    90% {
+        top: 45%;
+        transition: transform .1s ease-in-out;
+        transform: scale(1.5);
+    }
+}
