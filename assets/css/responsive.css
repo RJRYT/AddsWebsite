@@ -75,6 +75,12 @@ header {
     display: none;
 }
 
+/* out team container  */
+.container-team{
+    width: 5000% !important;
+    height: 12500% !important;
+}
+
 /*We excel in*/
 
 .we-excel {
@@ -713,6 +719,12 @@ footer .section-3 p {
         padding: 4%;
         font-size: 125%;
     }
+    .team-heading{
+        /* display: block; */
+        font-size: 105 !important;
+        margin-right: 20%;
+        font-weight: bolder;
+    }
 
     footer .section-1,
     .section-2,
@@ -733,6 +745,8 @@ footer .section-3 p {
     footer .section-4 {
         font-size: 128%;
     }
+
+   
 }
 
 /* Larger than above (desktops 1800px and up) */
