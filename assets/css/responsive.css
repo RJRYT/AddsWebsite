@@ -48,7 +48,7 @@ header {
 }
 
 .call-btn span:after {
-    content: '\00bb';
+    content: "\00bb";
     position: absolute;
     opacity: 0;
     top: 0;
@@ -76,9 +76,11 @@ header {
 }
 
 /* out team container  */
-.container-team{
-    width: 5000% !important;
-    height: 12500% !important;
+.container-team {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
 /*We excel in*/
@@ -195,7 +197,6 @@ header {
     vertical-align: middle;
     align-content: center;
     justify-content: start;
-
 }
 
 .contact-list p {
@@ -719,13 +720,46 @@ footer .section-3 p {
         padding: 4%;
         font-size: 125%;
     }
-    .team-heading{
-        /* display: block; */
-        font-size: 105 !important;
-        margin-right: 20%;
-        font-weight: bolder;
-    }
 
+    /* team */
+
+    h1{
+        font-size: 60px;
+    }
+    .container-team{
+        
+    }
+    .team-heading {
+        text-align: center;
+        font-size: 105 !important;
+        font-family: "LeagueSpartan";
+        color: rgb(129, 93, 59);
+        font-weight: bolder;
+        line-height: 0.976;
+        position: relative;
+        bottom: 60px;
+
+       
+    }
+    .team-img{
+        position: relative;
+        left: 12%;
+        bottom: 40px;
+        z-index: 5;
+        width: 80%;
+
+    }
+    /* bg */
+    .team-section2{
+        background-image: url("/assets/icon/android-chrome-512x512.png");
+        background-repeat: no-repeat;
+        background-position: center bottom -100px;
+        background-size: 60rem;
+        height: 100vh;
+    }
+   
+    
+    /* team end */
     footer .section-1,
     .section-2,
     .section-3 {
@@ -745,8 +779,6 @@ footer .section-3 p {
     footer .section-4 {
         font-size: 128%;
     }
-
-   
 }
 
 /* Larger than above (desktops 1800px and up) */
@@ -925,7 +957,7 @@ footer .section-3 p {
     animation-duration: 3s;
     animation-fill-mode: both;
     animation-name: preloaderFall;
-    transition: transform .3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
     transition-delay: 6s;
     transition-duration: 5s;
     transform: scale(2.9);
@@ -937,11 +969,11 @@ footer .section-3 p {
     }
 
     50% {
-        top: 45%
+        top: 45%;
     }
 
     60% {
-        top: 40%
+        top: 40%;
     }
 
     70% {
@@ -954,7 +986,7 @@ footer .section-3 p {
 
     90% {
         top: 45%;
-        transition: transform .1s ease-in-out;
+        transition: transform 0.1s ease-in-out;
         transform: scale(1.5);
     }
 }
